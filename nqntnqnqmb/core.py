@@ -234,7 +234,7 @@ def getAllEmployees(company,JSESSIONID,li_at):
                     propicture=pro["picture"]["rootUrl"]+pro["picture"]["artifacts"][2]["fileIdentifyingUrlPathSegment"]
                 results.append({"firstname":pro["firstName"],"lastname":pro["lastName"],'occupation':pro["occupation"],"profile-url":"https://www.linkedin.com/in/"+str(pro["publicIdentifier"]),"picture-url":propicture})
     return(results)
-def GetContactInformations(profile_url,JSESSIONID,li_at):
+def getContactInformations(profile_url,JSESSIONID,li_at):
     profile_url=profile_url+"/detail/contact-info/"
     ua = UserAgent()
     headers = {
