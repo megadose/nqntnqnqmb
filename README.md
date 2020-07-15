@@ -70,5 +70,5 @@ getAllEmployees(company,JSESSIONID,li_at)#Get all employees of a company from th
 getContactInformations(profile_url,JSESSIONID,li_at)#Extract contact informations from a profiles like the email, phone number and more
 ```
 
-#Thank To :
+# Thank To :
 - [linkedin-scraper](https://github.com/hakimkhalafi/linkedin-scraper)
