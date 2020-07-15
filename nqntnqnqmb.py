@@ -41,7 +41,7 @@ elif args.mode == "getProfileInformations":
             profileTarget=args.profile
             if profileTarget[len(profileTarget)-1]=="/":
                 profileTarget=profileTarget[:len(profileTarget)-1]
-            result= GetContactInformations(profileTarget,config["JSESSIONID"],config["li_at"])
+            result= getContactInformations(profileTarget,config["JSESSIONID"],config["li_at"])
             keys = result.keys()
             with open("informations_"+str(args.output), 'w') as csvfile:
                 writer = csv.DictWriter(csvfile, fieldnames=keys)
