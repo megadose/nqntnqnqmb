@@ -33,7 +33,8 @@ You just have to put the li_at and JSESSIONID cookies in the config.json file. I
 {
   "li_at": "2nd account",
   "JSESSIONID": "2nd account"
-}]```
+}]
+```
 
 usage: nqntnqnqmb.py [-h] --mode MODE [--company COMPANY] [--profile PROFILE]
                      [--searchCompany SEARCHCOMPANY]
