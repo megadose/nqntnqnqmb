@@ -24,7 +24,9 @@ python3 setup.py install
 ```
 
 # Usage of nqntnqnqmb.py 
-You just have to put the li_at and JSESSIONID cookies in the config.json file. If you want to do automatic account rotations, simply add the cookies like this
+You just have to put the li_at and JSESSIONID cookies in the config.json file. 
+![](cookies.png)
+If you want to do automatic account rotations, simply add the cookies like this
 ```json
 [{
   "li_at": "1st account",
