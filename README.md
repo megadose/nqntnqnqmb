@@ -41,7 +41,7 @@ usage: nqntnqnqmb.py [-h] --mode MODE [--company COMPANY] [--profile PROFILE]
                      [--searchProfile SEARCHPROFILE] --output OUTPUT  
   
 optional arguments:  
-  -h, --help            show this help message and exit  
+  -h, --help             show this help message and exit  
   --mode MODE           There are different modes: getEmployees to get all  
                         employees of a company, getProfileInformations to get  
                         all informations on a profile, searchCompany to search  
