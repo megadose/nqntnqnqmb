@@ -1,6 +1,7 @@
 # Nqntnqnqmb
 ### Educational purposes only, if you have any suggestions, please do not hesitate to contact us.
-Allows you to retrieve information on linkedin profiles, companies on linkedin and search on linkedin companies/persons
+Allows you to retrieve information on linkedin profiles, companies on linkedin and search on linkedin companies/persons  
+
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 ## Project example : [Nqntnqnqmb maltego](https://github.com/megadose/nqntnqnqmb-maltego)
 
