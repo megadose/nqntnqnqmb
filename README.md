@@ -36,27 +36,28 @@ You just have to put the li_at and JSESSIONID cookies in the config.json file. I
 }]
 ```
 
-usage: nqntnqnqmb.py [-h] --mode MODE [--company COMPANY] [--profile PROFILE]  
-                     [--searchCompany SEARCHCOMPANY]  
-                     [--searchProfile SEARCHPROFILE] --output OUTPUT  
-  
-optional arguments:  
-  -h, --help   show this help message and exit  
-  --mode MODE         There are different modes: getEmployees to get all  
-                      employees of a company, getProfileInformations to get  
-                      all informations on a profile, searchCompany to search  
-                      a company from the name of the company , searchProfile  
-                      to search a profile from a name  
-  --company COMPANY     Url of the company for get all employes (getEmployees)  
-  --profile PROFILE     Url of the profile for get all informations  
-                        (getProfileInformations)  
-  --searchCompany SEARCHCOMPANY  
-                        The name of the target company (searchCompany)  
-  --searchProfile SEARCHPROFILE  
-                        The name of the target (searchProfile)  
-  --output OUTPUT       Name of the csv output file  
-  
 
+```
+usage: nqntnqnqmb.py [-h] --mode MODE [--company COMPANY] [--profile PROFILE]
+                     [--searchCompany SEARCHCOMPANY]
+                     [--searchProfile SEARCHPROFILE] --output OUTPUT
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --mode MODE           There are different modes: getEmployees to get all
+                        employees of a company, getProfileInformations to get
+                        all informations on a profile, searchCompany to search
+                        a company from the name of the company , searchProfile
+                        to search a profile from a name
+  --company COMPANY     Url of the company for get all employes (getEmployees)
+  --profile PROFILE     Url of the profile for get all informations
+                        (getProfileInformations)
+  --searchCompany SEARCHCOMPANY
+                        The name of the target company (searchCompany)
+  --searchProfile SEARCHPROFILE
+                        The name of the target (searchProfile)
+  --output OUTPUT       Name of the csv output file
+```
 # Usage of nqntnqnqmb with python:
 
 ```python
