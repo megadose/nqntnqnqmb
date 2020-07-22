@@ -1,1 +1,1 @@
-from nqntnqnqmb.core import *
+from nqntmqmqmb.core import *
