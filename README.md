@@ -1,9 +1,9 @@
-# Nqntmqmqmb
+# Nqntnqnqmb
 ### Educational purposes only, if you have any suggestions, please do not hesitate to contact us.
 Allows you to retrieve information on linkedin profiles, companies on linkedin and search on linkedin companies/persons  
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-## Project example : [Nqntmqmqmb maltego](https://github.com/megadose/nqntnqnqmb-maltego)
+## Project example : [Nqntnqnqmb maltego](https://github.com/megadose/nqntnqnqmb-maltego)
 
 # Demo
 ![](demo.gif)
@@ -13,18 +13,18 @@ Allows you to retrieve information on linkedin profiles, companies on linkedin a
 ### With PyPI
 
 ```bash
-pip3 install nqntmqmqmb
+pip3 install nqntnqnqmb
 ```
 
 ### With Github
 
 ```bash
-git clone https://github.com/megadose/nqntmqmqmb.git
-cd nqntmqmqmb/
+git clone https://github.com/megadose/nqntnqnqmb.git
+cd nqntnqnqmb/
 python3 setup.py install
 ```
 
-# Usage of nqntmqmqmb.py 
+# Usage of nqntnqnqmb.py 
 You just have to put the li_at and JSESSIONID cookies in the config.json file. 
 ![](cookies.png)
 If you want to do automatic account rotations, simply add the cookies like this
@@ -41,7 +41,7 @@ If you want to do automatic account rotations, simply add the cookies like this
 
 
 ```
-usage: nqntmqmqmb.py [-h] --mode MODE [--company COMPANY] [--profile PROFILE]
+usage: nqntnqnqmb.py [-h] --mode MODE [--company COMPANY] [--profile PROFILE]
                      [--searchCompany SEARCHCOMPANY]
                      [--searchProfile SEARCHPROFILE] --output OUTPUT
 
@@ -61,10 +61,10 @@ optional arguments:
                         The name of the target (searchProfile)
   --output OUTPUT       Name of the csv output file
 ```
-# Usage of nqntmqmqmb with python:
+# Usage of nqntnqnqmb with python:
 
 ```python
-from nqntmqmqmb import *
+from nqntnqnqmb import *
 getCompanyFromName(company,JSESSIONID,li_at)#Search company on linkedin from name
 getProfileFromName(search_string,JSESSIONID,li_at)#Search linkedin profile from name (Simple Usage)
 getProfileFromName(search_string,JSESSIONID,li_at,pages_to_scrape=5,results_per_page=20)#Search linkedin profile from name (Advanced Usage)
