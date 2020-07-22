@@ -1,4 +1,4 @@
-from nqntmqmqmb import *
+from nqntnqnqmb import *
 import random,argparse,csv
 parser = argparse.ArgumentParser()
 parser.add_argument("--mode", help="There are different modes: getEmployees to get all employees of a company, getProfileInformations to get all informations on a profile, searchCompany to search a company from the name of the company , searchProfile to search a profile from a name",required=True)
