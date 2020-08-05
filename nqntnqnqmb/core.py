@@ -1,10 +1,11 @@
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 import json,random,string,requests,sys,os,time,traceback,urllib
-import pandas as pd
+
+ua = UserAgent(verify_ssl=False)
 
 def getCompanyFromName(company,JSESSIONID,li_at):
-    ua = UserAgent()
+
     cookies = {'JSESSIONID':JSESSIONID}
     cookies['li_at'] =  li_at
     headers = {'Csrf-Token': JSESSIONID,
@@ -30,7 +31,7 @@ def getCompanyFromName(company,JSESSIONID,li_at):
 def getProfileFromName(search_string,JSESSIONID,li_at,pages_to_scrape=5,results_per_page=20):
     search_results = []
 
-    ua = UserAgent()
+
     cookies = {'JSESSIONID':JSESSIONID}
     cookies['li_at'] =  li_at
     headers = {'Csrf-Token': JSESSIONID,
@@ -152,7 +153,7 @@ def getCompanyFromProfile(profile_url,JSESSIONID,li_at):
 
         return items
 
-    ua = UserAgent()
+
     cookies = {'JSESSIONID':JSESSIONID}
     cookies['li_at'] = li_at
     headers = {'Csrf-Token': JSESSIONID,
@@ -188,7 +189,7 @@ def getCompanyFromProfile(profile_url,JSESSIONID,li_at):
 
     return(results)
 def getAllEmployees(company,JSESSIONID,li_at):
-    ua = UserAgent()
+
     headers={'Accept-Language': 'en,en-US;q=0.5',
     'Accept-Encoding': 'gzip, deflate, br',
     'DNT': '1',
@@ -234,9 +235,9 @@ def getAllEmployees(company,JSESSIONID,li_at):
                     propicture=pro["picture"]["rootUrl"]+pro["picture"]["artifacts"][2]["fileIdentifyingUrlPathSegment"]
                 results.append({"firstname":pro["firstName"],"lastname":pro["lastName"],'occupation':pro["occupation"],"profile-url":"https://www.linkedin.com/in/"+str(pro["publicIdentifier"]),"picture-url":propicture})
     return(results)
-def getContactInformations(profile_url,JSESSIONID,li_at):
+def GetContactInformations(profile_url,JSESSIONID,li_at):
     profile_url=profile_url+"/detail/contact-info/"
-    ua = UserAgent()
+
     headers = {
         'authority': 'www.linkedin.com',
         'cache-control': 'max-age=0',
