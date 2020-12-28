@@ -1,9 +1,9 @@
 # Nqntnqnqmb
+![PyPI](https://img.shields.io/pypi/v/nqntnqnqmb) ![PyPI - Week](https://img.shields.io/pypi/dw/nqntnqnqmb) ![PyPI - Downloads](https://static.pepy.tech/badge/nqntnqnqmb) ![PyPI - License](https://img.shields.io/pypi/l/nqntnqnqmb)
 #### For BTC Donations : 1FHDM49QfZX6pJmhjLE5tB2K6CaTLMZpXZ
-### Educational purposes only, if you have any suggestions, please do not hesitate to contact us.
+## Educational purposes only
 Allows you to retrieve information on linkedin profiles, companies on linkedin and search on linkedin companies/persons  
 
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 ## Project example : [Nqntnqnqmb maltego](https://github.com/megadose/nqntnqnqmb-maltego)
 
 # Demo
